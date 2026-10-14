@@ -1,0 +1,120 @@
+{
+  "about": {
+    "title": "About",
+    "text": [],
+    "images": [
+      "/portfolio-images/about-1.jpg",
+      "/portfolio-images/about-2.jpg",
+      "/portfolio-images/about-3.jpg"
+    ]
+  },
+  "alaa-youssef-phd-planning-and-urban-design": {
+    "title": "Key Qualifications",
+    "text": [],
+    "images": [
+      "/portfolio-images/alaa-youssef-phd-planning-and-urban-design-1.jpg",
+      "/portfolio-images/alaa-youssef-phd-planning-and-urban-design-2.jpg"
+    ]
+  },
+  "cv": {
+    "title": "CV",
+    "text": [],
+    "images": [
+      "/portfolio-images/cv-1.jpg",
+      "/portfolio-images/cv-2.jpg",
+      "/portfolio-images/cv-3.jpg"
+    ]
+  },
+  "integrated-tourism-complexes-itc": {
+    "title": "Integrated Tourism Complexes",
+    "text": [
+      "Client: Ministry of Heritage and Tourism, Sultanate of Oman"
+    ],
+    "images": [
+      "/portfolio-images/integrated-tourism-complexes-itc-1.jpg",
+      "/portfolio-images/integrated-tourism-complexes-itc-2.jpg",
+      "/portfolio-images/integrated-tourism-complexes-itc-3.jpg"
+    ]
+  },
+  "marrasi-sidi-abd-el-rahman": {
+    "title": "Marrasi Sidi Abd El Rahman",
+    "text": [
+      "Client: Arab Consulting Engineers (ACE)",
+      "Role: Master plan coordination between Master Plan consultant (WATG) and Infrastructure consultant (ACE), suggest modifications to reach the optimum integration of project components."
+    ],
+    "images": [
+      "/portfolio-images/marrasi-sidi-abd-el-rahman-1.jpg",
+      "/portfolio-images/marrasi-sidi-abd-el-rahman-2.jpg"
+    ]
+  },
+  "king-abdel-aziz-university": {
+    "title": "King Khaled University, Abha, KSA",
+    "text": [
+      "Client: Zuhair Fayez",
+      "Stuff Housing"
+    ],
+    "images": [
+      "/portfolio-images/king-abdel-aziz-university-1.jpg",
+      "/portfolio-images/king-abdel-aziz-university-2.jpg",
+      "/portfolio-images/king-abdel-aziz-university-3.jpg"
+    ]
+  },
+  "dream-land-theme-park": {
+    "title": "Dream Land Theme Park",
+    "text": [
+      "Client: Talat Imam Consultant"
+    ],
+    "images": [
+      "/portfolio-images/dream-land-theme-park-1.jpg",
+      "/portfolio-images/dream-land-theme-park-2.jpg",
+      "/portfolio-images/dream-land-theme-park-3.jpg"
+    ]
+  },
+  "dhofar-tourism-development-master-plan": {
+    "title": "Dhofar Tourism Development Master Plan",
+    "text": [
+      "Client: Ministry of Heritage and Tourism, Sultanate of Oman",
+      "* Photos by Alaa Youssef"
+    ],
+    "images": [
+      "/portfolio-images/dhofar-tourism-development-master-plan-1.jpg",
+      "/portfolio-images/dhofar-tourism-development-master-plan-2.jpg",
+      "/portfolio-images/dhofar-tourism-development-master-plan-3.jpg"
+    ]
+  },
+  "muscat-tourism-development-masterplan": {
+    "title": "Muscat Tourism Development Masterplan",
+    "text": [
+      "Client: Ministry of Heritage and Tourism, Sultanate of Oman",
+      "* Photos by Alaa Youssef"
+    ],
+    "images": [
+      "/portfolio-images/muscat-tourism-development-masterplan-1.jpg",
+      "/portfolio-images/muscat-tourism-development-masterplan-2.jpg",
+      "/portfolio-images/muscat-tourism-development-masterplan-3.jpg"
+    ]
+  },
+  "dream-land-residential": {
+    "title": "Dream Land Residence",
+    "text": [
+      "Client: Talat Imam Consultant",
+      "*As built is different from the original design due to changing building prototype"
+    ],
+    "images": [
+      "/portfolio-images/dream-land-residential-1.jpg",
+      "/portfolio-images/dream-land-residential-2.jpg",
+      "/portfolio-images/dream-land-residential-3.jpg"
+    ]
+  },
+  "mudon-of-arabia-city-centre-of-marrakech": {
+    "title": "Mudon of Arabia, City centre of Marrakech",
+    "text": [
+      "Client: CDC Abdelhalim Ibrahim"
+    ],
+    "images": [
+      "/portfolio-images/mudon-of-arabia-city-centre-of-marrakech-1.jpg",
+      "/portfolio-images/mudon-of-arabia-city-centre-of-marrakech-2.jpg",
+      "/portfolio-images/mudon-of-arabia-city-centre-of-marrakech-3.jpg"
+    ]
+  }
+}

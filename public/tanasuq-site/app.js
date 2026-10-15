@@ -459,11 +459,9 @@ function renderWorks() {
 
         <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(23,23,22,0.06); padding-top:0.75rem; margin-top:auto;">
           <button class="work-cta-btn" data-project="${p.id}">View Master Plan Study &rarr;</button>
-          ${p.projectTrack === 'principal' ? `
-            <a href="https://alaayoussef.myportfolio.com/${p.slug}" target="_blank" rel="noopener noreferrer" style="font-size:0.75rem; color:#9E9B94; text-decoration:none;">Adobe Portfolio</a>
-          ` : `
-            <span style="font-size:0.75rem; font-family:monospace; color:#9E9B94;">Tanasuq</span>
-          `}
+          <span style="font-size:0.75rem; font-family:monospace; color:#9E9B94;">
+            ${p.projectTrack === 'principal' ? 'Principal Track' : 'Tanasuq'}
+          </span>
         </div>
       </div>
     </article>
@@ -656,12 +654,9 @@ function initCaseStudyModal() {
         </div>
       ` : ''}
 
-      <div style="margin-top:2rem; padding-top:1.25rem; border-top:1px solid rgba(23,23,22,0.08); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
-        ${project.projectTrack === 'principal' ? `
-          <a href="https://alaayoussef.myportfolio.com/${project.slug}" target="_blank" rel="noopener noreferrer" style="font-size:0.85rem; color:#171716; text-decoration:underline;">View Archive on alaayoussef.myportfolio.com &rarr;</a>
-        ` : `
-          <span style="font-size:0.85rem; color:#6B6862;"><strong>Tanasuq Flagship Master Planning</strong> · Independent Practice</span>
-        `}
+        <span style="font-size:0.85rem; color:#6B6862;">
+          <strong>${project.projectTrack === 'principal' ? 'Principal Experience Record' : 'Tanasuq Flagship Master Planning'}</strong> · ${project.projectTrack === 'principal' ? 'Academic & Advisory Provenance' : 'Independent Practice'}
+        </span>
         <a href="#contact" onclick="document.getElementById('caseStudyModal').classList.remove('open')" class="btn btn-primary" style="font-size:0.8rem; padding:0.5rem 1rem;">Inquire Regarding Master Plan</a>
       </div>
     `;

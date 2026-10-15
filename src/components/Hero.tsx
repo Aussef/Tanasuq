@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, ExternalLink } from 'lucide-react';
+import { Award } from 'lucide-react';
 import { DOCTOR_PROFILE } from '../data/projectsData';
 
 interface HeroProps {
@@ -73,15 +73,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQualifications }) => {
               <span aria-hidden="true" className="text-[#9E9B94]">·</span>
               <span>Coordination with WATG & Arab Consulting Engineers (ACE)</span>
             </div>
-            <a
-              href="https://alaayoussef.myportfolio.com/marrasi-sidi-abd-el-rahman"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#171716] hover:underline flex items-center gap-1 font-medium"
-            >
-              <span>View on Adobe Portfolio</span>
-              <ExternalLink className="w-3 h-3" />
-            </a>
+            <span className="font-mono text-[11px] text-[#8C8880]">
+              Principal Experience Commission
+            </span>
           </div>
         </div>
 

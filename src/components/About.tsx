@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, ExternalLink, ShieldCheck, Info } from 'lucide-react';
+import { Award, ShieldCheck, Info } from 'lucide-react';
 import { DOCTOR_PROFILE, PRINCIPAL_EXPERIENCE_DISCLAIMER } from '../data/projectsData';
 
 interface AboutProps {
@@ -75,16 +75,6 @@ export const About: React.FC<AboutProps> = ({ onOpenQualifications }) => {
               <Award className="w-3.5 h-3.5" />
               <span>Key Qualifications & Credentials</span>
             </button>
-
-            <a
-              href={DOCTOR_PROFILE.portfolioUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-center text-xs text-[#6B6862] hover:text-[#171716] hover:underline flex items-center justify-center gap-1"
-            >
-              <span>View Official Portfolio Archive on Adobe</span>
-              <ExternalLink className="w-3 h-3" />
-            </a>
           </div>
 
           {/* Right Column: Narrative & Formal Attribution Statement */}

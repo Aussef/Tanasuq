@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, ExternalLink, Award, ShieldCheck, GraduationCap, Building2, MapPin } from 'lucide-react';
+import { X, Award, ShieldCheck, GraduationCap, Building2, MapPin } from 'lucide-react';
 import { DOCTOR_PROFILE, QUALIFICATIONS_TIMELINE, PRINCIPAL_EXPERIENCE_DISCLAIMER } from '../data/projectsData';
 
 interface QualificationsModalProps {
@@ -56,15 +56,6 @@ export const QualificationsModal: React.FC<QualificationsModalProps> = ({
           </div>
 
           <div className="flex items-center gap-2">
-            <a
-              href={DOCTOR_PROFILE.portfolioUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-[#171716] bg-[#F3EFEA] hover:bg-[#EAE5DC] rounded border border-[#171716]/10 transition-colors"
-            >
-              <span>Portfolio Archive</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
             <button
               onClick={onClose}
               className="p-1.5 text-[#6B6862] hover:text-[#171716] rounded-full hover:bg-[#F3EFEA] transition-colors cursor-pointer"
@@ -176,15 +167,6 @@ export const QualificationsModal: React.FC<QualificationsModalProps> = ({
         <div className="px-6 py-3.5 bg-[#FBFBFA] border-t border-[#171716]/10 flex flex-wrap items-center justify-between gap-3 text-xs text-[#6B6862]">
           <span>Direct Contact: <strong className="text-[#171716]">Dr.Alaa.Yousef@gmail.com</strong></span>
           <div className="flex items-center gap-3">
-            <a
-              href={DOCTOR_PROFILE.portfolioUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#171716] hover:underline flex items-center gap-1 font-medium"
-            >
-              <span>alaayoussef.myportfolio.com</span>
-              <ExternalLink className="w-3 h-3" />
-            </a>
             <button
               onClick={onClose}
               className="px-3 py-1 bg-[#171716] text-white rounded text-xs hover:bg-[#2E2D2B] transition-colors cursor-pointer"

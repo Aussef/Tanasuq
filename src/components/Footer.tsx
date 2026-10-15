@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUp, ExternalLink } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 import { DOCTOR_PROFILE } from '../data/projectsData';
 
 interface FooterProps {
@@ -28,16 +28,6 @@ export const Footer: React.FC<FooterProps> = ({
               Senior urban planning, territorial master planning, and Integrated Tourism Complexes (ITC) advisory across the Sultanate of Oman, Egypt, Saudi Arabia, and Morocco.
             </p>
             <div className="flex flex-wrap items-center gap-3">
-              <a
-                href={DOCTOR_PROFILE.portfolioUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs font-mono text-[#D1CFCA] hover:text-white underline underline-offset-4 flex items-center gap-1"
-              >
-                <span>alaayoussef.myportfolio.com</span>
-                <ExternalLink className="w-3 h-3" />
-              </a>
-              <span className="text-white/20">·</span>
               <button
                 onClick={onOpenSourceModal}
                 className="text-xs font-mono text-[#D1CFCA] hover:text-white underline underline-offset-4 cursor-pointer"

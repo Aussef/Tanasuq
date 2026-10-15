@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import type { Project } from '../types';
-import { X, ExternalLink, CheckCircle2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, CheckCircle2, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface CaseStudyModalProps {
   project: Project | null;
@@ -146,21 +146,12 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({ project, onClose
 
           {/* Action Row */}
           <div className="pt-6 border-t border-[#171716]/8 flex flex-wrap items-center justify-between gap-4">
-            {project.projectTrack === 'principal' ? (
-              <a
-                href={`https://alaayoussef.myportfolio.com/${project.slug}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#171716] underline underline-offset-4"
-              >
-                <span>View Original Submission on alaayoussef.myportfolio.com</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            ) : (
-              <div className="text-xs text-[#6B6862]">
-                <strong className="text-[#171716]">Tanasuq Flagship Master Planning</strong> · Independent Practice
-              </div>
-            )}
+            <div className="text-xs text-[#6B6862]">
+              <strong className="text-[#171716]">
+                {project.projectTrack === 'principal' ? 'Principal Experience Record' : 'Tanasuq Flagship Master Planning'}
+              </strong>
+              {' '}· {project.projectTrack === 'principal' ? 'Academic & Advisory Provenance' : 'Independent Practice'}
+            </div>
 
             <a
               href="#contact"

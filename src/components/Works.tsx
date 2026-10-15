@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { CategoryFilter, Project, ProjectTrack } from '../types';
 import { PRINCIPAL_PROJECTS, TANASUQ_PROJECTS, PRINCIPAL_EXPERIENCE_DISCLAIMER } from '../data/projectsData';
-import { ArrowUpRight, ExternalLink, Info, Compass, Building2, CheckCircle2 } from 'lucide-react';
+import { ArrowUpRight, Info, Compass, Building2, CheckCircle2 } from 'lucide-react';
 
 interface WorksProps {
   onSelectProject: (project: Project) => void;
@@ -133,15 +133,9 @@ export const Works: React.FC<WorksProps> = ({ onSelectProject }) => {
                 </p>
               </div>
             </div>
-            <a
-              href="https://alaayoussef.myportfolio.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#171716] underline underline-offset-4 shrink-0 self-start md:self-auto hover:opacity-80"
-            >
-              <span>Original Archive</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
+            <span className="text-xs font-mono text-[#8C8880] shrink-0 self-start md:self-auto">
+              Academic & Advisory Track
+            </span>
           </div>
         ) : (
           <div className="mb-10 p-5 rounded-lg bg-[#EFEBE4] border border-[#171716]/12 flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -299,21 +293,9 @@ export const Works: React.FC<WorksProps> = ({ onSelectProject }) => {
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </button>
 
-                  {project.projectTrack === 'principal' ? (
-                    <a
-                      href={`https://alaayoussef.myportfolio.com/${project.slug}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-[#9E9B94] hover:text-[#171716] transition-colors p-1"
-                      title="View on original Adobe Portfolio"
-                    >
-                      <ExternalLink className="w-3.5 h-3.5" />
-                    </a>
-                  ) : (
-                    <span className="text-[11px] font-mono text-[#9E9B94]">
-                      Tanasuq
-                    </span>
-                  )}
+                  <span className="text-[11px] font-mono text-[#9E9B94]">
+                    {project.projectTrack === 'principal' ? 'Principal Track' : 'Tanasuq Practice'}
+                  </span>
                 </div>
               </div>
             </article>

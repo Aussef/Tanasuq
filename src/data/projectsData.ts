@@ -7,7 +7,6 @@ export const DOCTOR_PROFILE = {
   subtitle: 'Senior Urban Planning, Master Planning & Urban Design Consultant',
   experience: '30+ Years of Academic & Regional Practice',
   email: 'Dr.Alaa.Yousef@gmail.com',
-  portfolioUrl: 'https://alaayoussef.myportfolio.com/',
   locations: ['Muscat, Sultanate of Oman', 'Cairo, Egypt'],
   formerFaculty: 'Faculty of Urban and Regional Planning, Cairo University (1991 – 2010)',
   advisorRole: 'Urban Planning Advisor, Minister’s Office, Ministry of Heritage and Tourism, Oman',

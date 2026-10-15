@@ -41,10 +41,10 @@ export default function App() {
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-400 shrink-0" />
             <span className="font-medium text-white">
-              Official Portfolio Live:
+              Tanasuq Practice:
             </span>
             <span className="text-[#A3A09A]">
-              Integrated from <strong className="text-white">alaayoussef.myportfolio.com</strong> ({DOCTOR_PROFILE.fullName}, PhD)
+              Led by <strong className="text-white">{DOCTOR_PROFILE.fullName}</strong>, PhD · Senior Urban Planning & Advisory Practice
             </span>
           </div>
 

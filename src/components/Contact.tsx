@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, MapPin, CheckCircle, ExternalLink } from 'lucide-react';
+import { Mail, MapPin, CheckCircle } from 'lucide-react';
 import { DOCTOR_PROFILE } from '../data/projectsData';
 
 interface ContactProps {
@@ -103,17 +103,11 @@ export const Contact: React.FC<ContactProps> = ({ initialScope }) => {
 
               <div>
                 <span className="block text-xs font-semibold uppercase tracking-wider text-[#9E9B94] mb-1">
-                  Official Adobe Portfolio Archive
+                  Advisory Protocol
                 </span>
-                <a
-                  href={DOCTOR_PROFILE.portfolioUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-[#171716] hover:underline inline-flex items-center gap-1 font-medium"
-                >
-                  <span>alaayoussef.myportfolio.com</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
+                <p className="text-sm text-[#5E5C56]">
+                  Direct consultations for statutory authorities, master developers, and international design teams.
+                </p>
               </div>
             </div>
           </div>
